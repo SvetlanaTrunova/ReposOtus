@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="deeaa351-e10a-43ad-941f-48ed1cf78a3d" extendedConfigurationObject="df56c396-44a1-41dc-a733-ceef74778c2e">
+  <producedTypes>
+    <containerType typeId="c6e6811b-febe-4e49-b8a6-7cdd114685b2" valueTypeId="835026b9-d74a-4d1e-be0c-debf8144d611"/>
+  </producedTypes>
+  <name>ДенежныеСредства</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension/>
+  </extension>
+  <type/>
+</mdclass:DefinedType>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="449e9c80-cf74-4389-86bd-1145be069d9b">
+  <name>РасчетЦены</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет цены</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="22cfffa7-4205-4732-aea7-13d413af60d4"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="80385fd7-f2e9-4d78-8e42-5bb5ef9161d0"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="6e28d45e-bf7e-4c45-b70b-9991df70c328"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="4a0b29f7-b268-4c43-b7a5-cf03c27ebfa7"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="3e1154be-c872-44ec-8f94-198612dccb97"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="53e2519e-4984-4df4-8edc-fad9f8d6d873"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="4d18ccda-c45a-4cab-a2a6-e62c330c9692"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>РЦ_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.РЦ_ОсновнаяРоль</defaultRoles>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <compatibilityMode>8.3.26</compatibilityMode>
+  <languages uuid="53600ff5-ba89-472f-86d3-8b01e6d66305" extendedConfigurationObject="69b3c372-3e61-4903-979b-ef2c8e3d3c98">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <roles>Role.РЦ_ОсновнаяРоль</roles>
+  <definedTypes>DefinedType.ДенежныеСредства</definedTypes>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <informationRegisters>InformationRegister.УчетЦенНоменклатуры</informationRegisters>
+</mdclass:Configuration>

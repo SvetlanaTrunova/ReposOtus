@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c656afcd-f069-459c-a69b-23731bcaede5" extendedConfigurationObject="04d21f40-f0d4-4b66-80fd-727baaa42565">
+  <producedTypes>
+    <objectType typeId="66eaa572-f8a7-43a9-88b5-50403630cd2b" valueTypeId="cd0d65ae-5acf-4c94-9fa9-05b26390fdb2"/>
+    <refType typeId="454f00fe-30c1-49aa-a8ca-a82f03b759dc" valueTypeId="831d94ff-5caa-46d8-a06d-3ec76c2fd036"/>
+    <selectionType typeId="52b51877-3687-458e-8c98-05eef7dd624e" valueTypeId="3ae93d34-83ef-4680-ae64-74e73500a966"/>
+    <listType typeId="0740ce90-5067-465c-97d9-02c84cba823d" valueTypeId="4f871530-6d42-4da0-92be-934031254004"/>
+    <managerType typeId="88b44ec8-3f0b-446a-b254-06b349968608" valueTypeId="98bf0e46-a60b-4277-aea2-d17ce3ef494f"/>
+  </producedTypes>
+  <name>Номенклатура</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <defaultListForm>Extended</defaultListForm>
+  </extension>
+  <defaultListForm>Catalog.Номенклатура.Form.РЦ_ФормаСписка</defaultListForm>
+  <forms uuid="ae030056-e670-4a30-a873-7339137d2a98">
+    <name>РЦ_ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
