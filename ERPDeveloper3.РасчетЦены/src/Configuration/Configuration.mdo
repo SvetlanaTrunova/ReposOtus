@@ -29,7 +29,6 @@
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.РЦ_ОсновнаяРоль</defaultRoles>
   <defaultLanguage>Language.Русский</defaultLanguage>
-  <compatibilityMode>8.3.26</compatibilityMode>
   <languages uuid="53600ff5-ba89-472f-86d3-8b01e6d66305" extendedConfigurationObject="69b3c372-3e61-4903-979b-ef2c8e3d3c98">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
