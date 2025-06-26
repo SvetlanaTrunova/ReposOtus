@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fce60a81-2377-4887-a256-de663545bc9f">
+  <name>gadgeton</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интернет-магазин &quot;GadgetON&quot;</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="6edd9cc6-0bce-4d92-a37b-6e80ba022082"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="4ac3bf17-e049-434c-87c3-ceb3e4b4b80a"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="388183cc-9c31-476e-bf84-0dbf9260a622"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="010c98d1-d4f8-4ee6-83f3-ba41ae187ab5"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="535e3a95-e264-408b-8574-e218c29154ac"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="ad5e7fee-5986-4938-b15f-b56335995400"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="c01c1252-29ed-4af3-a3c0-91d9180174ba"/>
+  <configurationExtensionCompatibilityMode>8.3.26</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>Учебный Центр 1С №1</vendor>
+  <version>1.1.1.1</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <mainSectionPicture/>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <logo/>
+  <splash/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.21</compatibilityMode>
+  <languages uuid="69b3c372-3e61-4903-979b-ef2c8e3d3c98">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Поставки</subsystems>
+  <subsystems>Subsystem.Заказы</subsystems>
+  <styles>Style.Корпоративный</styles>
+  <commonPictures>CommonPicture.КартинкаПоставки</commonPictures>
+  <commonPictures>CommonPicture.КартинкаЗаказы</commonPictures>
+  <sessionParameters>SessionParameter.ПользовательСеанса</sessionParameters>
+  <roles>Role.СБ_РаботаСДанными</roles>
+  <roles>Role.СБ_ПросмотрДанных</roles>
+  <commonModules>CommonModule.ОбработчикиПодписокНаСобытия</commonModules>
+  <eventSubscriptions>EventSubscription.ЗаписьЗаказаПоставщика</eventSubscriptions>
+  <definedTypes>DefinedType.ДенежныеСредства</definedTypes>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Поставщики</catalogs>
+  <catalogs>Catalog.Договоры</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <catalogs>Catalog.Города</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <documents>Document.ЗаказыПоставщикам</documents>
+  <documents>Document.ПриходныеНакладные</documents>
+  <documents>Document.РасходыДенежныхСредств</documents>
+  <documents>Document.ЗаказыКлиента</documents>
+  <documents>Document.РасходныеНакладные</documents>
+  <documents>Document.ПриходыДенежныхСредств</documents>
+  <documents>Document.ПрайсЛист</documents>
+  <enums>Enum.СтатусЗаказа</enums>
+  <reports>Report.ОстаткиТоваров</reports>
+  <informationRegisters>InformationRegister.УчетЦенНоменклатуры</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиНоменклатуры</accumulationRegisters>
+</mdclass:Configuration>
